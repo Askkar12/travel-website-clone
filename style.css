@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.search{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+.search input{
+    height: 45px;
+    padding: 10px;
+    color: white;
+    margin-right: 130px;
+}
+.navbar{
+    color: white;
+}
+.search ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search ul li{
+    margin-left: 20px;
+    text-decoration: none;
+    list-style-type: none;
+}
+.search ul li a{
+    font-size: 25px;
+    color: white;
+}
+.image{
+    background-color: black;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 52px;
+}
+.image img{
+    height: 60px;
+    width:300px;  
+    margin-bottom: 15px; 
+    margin-right: 80px;
+}
+.image ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.image ul li{
+    margin-left: 15px;
+    text-decoration: none;
+    list-style-type: none;
+}
+.image ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 600;
+}
+#banner{
+    position: relative;
+    width: 100%;
+    height: 495px;
+}
+.bannerimage{
+    width: 100%;
+    object-fit: cover;
+}
+.bannerimage img{
+    width: 100%;
+    height: 500px;
+    margin-top: -5px;
+}
+.bannerheading{
+    display: block;
+    position: relative;
+    bottom: 350px;
+    left: 230px;
+    text-align:center;
+    color: white;
+}
+.bannerheading input{
+    height: 55px;
+    width: 500px;
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+}
+.bannerheading p{
+    font-size: 22px;
+    margin-top: 25px;
+}
+#bannerbottom{
+    width: 100%;
+    height: 100px;
+    background-color: #3a93b2;
+    color: white;
+}
+.bannerbottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px; 
+}
+.bannerbottom input{
+    height: 65px;
+    width: 330px;
+    padding: 10px;
+    font-size: 20px;  
+    border: none;
+}
+.bannerbottom button{
+    height: 65px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #acc861;
+    color: white;
+    font-weight: 600;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading h1{
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.row a img{
+    width: 380px;
+    height: 200px;
+    box-shadow:  2px 4px 6px rgba(0,0,0,0.8);
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.col-4{
+    position: relative;
+    display: inline-block;  
+}
+.col-4 img{
+    display: block;
+}
+.imagetext{
+    font-size: 30px;
+    align-items: center;
+    text-align: justify;
+    color: white;
+    font-weight: 500;
+}
+.about{
+    background-color: #e2e8f0b8;
+    margin-top: 100px;
+}
+.about h2{
+    margin-top: 50px;
+}
+.about .col-5 img{
+    height: 300px;
+    width: 650px;
+}
+.about p{
+    margin-top: 20px;
+    font-size: 20px;
+ 
+}
+.about p a{
+    text-decoration: none;
+}
+.about p a:hover{
+    color: black;
+}
+.about .col-5 ul li{
+    font-size: 20px;
+    padding-top: 3px;
+    
+}
+.about .col-5 ul li a{
+    text-decoration: none;
+}
+.about .col-5 ul li a:hover{
+    color: black;
+}
+.about .bottom h4{
+    margin-left: 80px;
+    margin-top: 60px;
+}
+.about .bottom img{
+    width: 500px;
+    height: 250px;
+}
+#top-resource{
+    margin-top: 350px;
+}
+.topresource .col-4 img{
+    height: 300px;
+    width: 350px;
+}
+.topresource .col-6 p{
+    margin-left: -120px;
+    font-size: 22px;
+    text-align: justify;
+}
+.topresource .col-6 h2{
+    margin-left: -120px;
+    margin-top: 20px;
+}
+.topresource .col-6 button{
+    margin-top: 10px;
+    margin-left: -120px;
+    height: 50px;
+    width: 180px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #3a93b2;
+    color: white;
+    font-weight: bold ;
+}
+.horizontal{
+    margin-top: 30px;
+}
+.horizontal img{
+    margin-left: 20%;
+    margin-right: 20%;
+    overflow: hidden;
+    height: 50px;
+}
+#books h1{
+    margin-top: 50px;
+}
+.guides .col-5 h4{
+    font-weight: bold;
+    margin-top: 50px;
+}
+.guides .col-5 h4 a{
+    text-decoration: none;
+}
+.guides .col-5 p{
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 10px;
+}
+.guides .col-5 p a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.guides .col-5 p a:hover{
+    color: black;
+}
+.guides .col-5 img{
+    margin-top: 50px;
+    height: 400px;
+    width: 250px;
+    margin-left: 50px;
+}
+#destination .col-8 p{
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 5px;
+}
+#destination h3{
+    font-weight: bold;
+}
+#images .col-2 img{
+    height: 220px;
+    width: 150px;
+    margin-top: 30px;
+}
+#images .container{
+    width: 70%;
+    margin-left: 230px;
+}
+#feedback{
+    background-color:#e2e8f0b8 ;
+    margin-top: 50px;
+    height: 500px;
+}
+
+.feedback1 .col-5 h3{
+    margin-top: 60px;
+    font-weight: bold;
+}
+.feedback1 .col-5 p{
+    font-size: 22px;
+    text-align: justify;
+}
+.feedback1 .col-5 input{
+    height: 50px;
+    width: 550px;
+    font-size: 20px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.feedback1 .col-5 button{
+    height: 50px;
+    width: 550px;
+    font-size: 18px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #acc861;
+    color: white;
+}
+.feedback1 .col-5 img{
+    margin-top: 40px;
+    height: 400px;
+    width: 600px;
+    margin-left: 30px;
+}
+
+#footer{
+    background-color: #0693e3;
+    align-items: center;
+    height: 400px;
+   
+}
+#footer .col-2 h4{
+    margin-top: 40px;
+    text-decoration: underline;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+#footer .col-2 ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+#footer .col-2 ul li{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.socialmedia ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.socialmedia ul li a{
+    margin-left: 25px;
+    font-size: 25px;
+}
+.searchbox input{
+    height: 55px;
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+}
+.bottomline h6{
+    margin-top: 80px;
+    color: white;
+}
+
+
+
+
+
+
